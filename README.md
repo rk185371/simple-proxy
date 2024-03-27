@@ -33,4 +33,3 @@ app.post('/api/get-sample', async (req, res) => {
 });
 ```
 
-test
