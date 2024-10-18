@@ -7,6 +7,7 @@ const cors = require('cors');
 app.use(express.json());
 app.use(cors({ origin: '*' }));
 
+// wow, neato
 app.get('/localhost-proxy', async (req, res) => {
   const yourApiUrl = 'https://jsonplaceholder.typicode.com/todos/1';
   const { data } = await axios.get(yourApiUrl);
