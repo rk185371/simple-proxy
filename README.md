@@ -1,5 +1,7 @@
 # simple-proxy
 
+Example of creating a proxy with express.
+
 ### setup
 1. `npm i`
 2. `npm run dev`
